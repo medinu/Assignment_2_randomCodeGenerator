@@ -1,23 +1,3 @@
-# **Description**
-The purpose of the program is to randomly generate code that is syntactically valid according to predefined production rules. The program starts with a string "\<prog\>" and through the use of random numbers determines what replaces the non terminal blob. This process of replacing nonterminal elements until they become a string that contains only terminal elements ends up creating a random string of code that ,while semantically strange, syntactically 100% legal.
-
-___
-## **Logs**
-### 2/18/2020
-* defined the language structure as array variables
-* added probability as an elemtent of the array
-
-### 2/19/2020
-* fixed all the typos that made the switching of text return undefined
-* added a switch case to determine which text gets swapped for which element from the list
-* by picking a random value between [0-1] the function will determine which element to pick from the array.
-* lastly, added a fs.writeFile function to output the end string to a .cpp file
-
-
-___
-## **Sample output**
-white spaces and indentation has been added manually to make the random code look more natural.
-```c++
 int main() { 
     if (10 ){
         if (5 ){
@@ -121,6 +101,7 @@ int main() {
                                     }  
                                 }          
                             }   
+
                             D  = x  / A2  
                             int Y6  = t  
                             double M  = wR  
@@ -151,10 +132,11 @@ int main() {
         while (_ ){
             double b  = 8  / 93   
         }
-    }  
+    }
+        
     while (Ci8 ){
         double N  = H   
     } 
+
     return 0; 
 }
-```
